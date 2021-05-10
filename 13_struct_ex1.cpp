@@ -43,14 +43,14 @@ int main()
     for (int i=0; i<5; i++)
     {
         printf("Nim       : "); scanf("%s", arrStudents[i].nim);
-        printf("Nama      : "); scanf("%s", andi.nama);
-        printf("Street    : "); scanf("%s", andi.addr.street);
-        printf("No        : "); scanf("%d", &andi.addr.no);
-        printf("City      : "); scanf("%s", andi.addr.city);
-        printf("Province  : "); scanf("%s", andi.addr.province);
-        printf("PlaceOfBirht: "); scanf("%s", andi.placeOfBirth);
-        printf("DOB-Date    : "); scanf("%d", &andi.dob.date);
-        printf("DOB-Month   : "); scanf("%d", &andi.dob.month);
-        printf("DOB-Year    : "); scanf("%d", &andi.dob.year);
+        printf("Nama      : "); scanf("%s", arrStudents[i].nama);
+        printf("Street    : "); scanf("%s", arrStudents[i].addr.street);
+        printf("No        : "); scanf("%d", &arrStudents[i].addr.no);
+        printf("City      : "); scanf("%s", arrStudents[i].addr.city);
+        printf("Province  : "); scanf("%s", arrStudents[i].addr.province);
+        printf("PlaceOfBirht: "); scanf("%s", arrStudents[i].placeOfBirth);
+        printf("DOB-Date    : "); scanf("%d", &arrStudents[i].dob.date);
+        printf("DOB-Month   : "); scanf("%d", &arrStudents[i].dob.month);
+        printf("DOB-Year    : "); scanf("%d", &arrStudents[i].dob.year);
     }
 }
